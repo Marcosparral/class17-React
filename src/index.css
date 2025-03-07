@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: black;
+  --secondary-color: hsl(37, 94%, 50%);
+  
+}
