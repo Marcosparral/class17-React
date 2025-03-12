@@ -1,9 +1,9 @@
 
 
-export const ImageBox = ({imagesSrc}) => {
+export const ImageBox = ({imagesSrc, alt}) => {
     return (
         <div className="content-image">
-            <img src={imagesSrc} alt="Goku pelo blanco" />
+            <img src={imagesSrc} alt={alt} />
         </div>
     )
 }
